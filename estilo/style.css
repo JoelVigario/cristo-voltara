@@ -23,6 +23,7 @@
     }
     
     .ft-lt {
+        background-color: white;
         max-height: 300px;
         padding: 10px;
         color: #666;
@@ -44,9 +45,9 @@
 
     .ft-hor img {
         background-color: var(--cor1);
-        width: 41.09%;
+        width: 41.5%;
         height: 100%;
-        outline: 10px solid var(--cor4);
+        outline: 10px solid var(--cor2);
         float: left;
     }
 
@@ -59,6 +60,11 @@
         position: relative;
         top: 50%;
         transform: translate(0px, -50%);
+    }
+    .ver {
+        max-width: 31.33%;
+        float: left;
+        padding: 1%;
     }
 }
 
@@ -126,6 +132,10 @@ section {
     background-color: white;
 }
 
+#sec-pub {
+    background-color: var(--cor4);
+}
+
 #img-mn h1 {
     color: var(--cor3);
     font-variant: small-caps;
@@ -157,6 +167,11 @@ section#img-mn {
 
 section#img-pub {
     background-image: url('../imagens/fundo02.jpg');
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: auto;
 }
 
 footer {
