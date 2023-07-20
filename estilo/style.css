@@ -7,6 +7,7 @@
     --cor2: indianred;
     --cor3: orange;
     --cor4: moccasin;
+    --cor5: rgb(255, 239, 211);
     --fonte0: Verdana, Geneva, Tahoma, sans-serif;
     --fonte1: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -25,7 +26,7 @@
     .ft-lt {
         background-color: white;
         max-height: 300px;
-        padding: 10px;
+        padding: 1%;
         color: #666;
         font-family: var(--fonte1);
     }
@@ -47,7 +48,6 @@
         background-color: var(--cor1);
         width: 41.5%;
         height: 100%;
-        outline: 10px solid var(--cor2);
         float: left;
     }
 
@@ -55,7 +55,7 @@
         width: 54.79%;
         height: 70%;
         float: right;
-        padding-left: 20px;
+        padding-left: 2.5%;
         box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.15);
         position: relative;
         top: 50%;
@@ -88,7 +88,7 @@
 }
 
 html, body {
-    background-color: #ddd;
+    background-color: #fff;
     height: 100vh;
     font-family: var(--fonte0);
 }
