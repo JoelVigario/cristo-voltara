@@ -90,7 +90,7 @@
 html, body {
     background-color: #fff;
     height: 100vh;
-    font-family: var(--fonte0);
+    font-family: var(--fonte1);
 }
 
 div#box-fixed {
