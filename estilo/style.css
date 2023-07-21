@@ -12,76 +12,6 @@
     --fonte1: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-/* feature em telas pequenas */
-    .ft-hor {
-        margin: auto;
-    }
-    
-    .ft-hor img {
-        background-color: var(--cor1);
-        width: 100%;/*max-width*/
-        height: 300px;
-    }
-    
-    .ft-lt {
-        background-color: white;
-        max-height: 300px;
-        padding: 1%;
-        color: #666;
-        font-family: var(--fonte1);
-    }
-@media (max-width: 759px) {
-    .ft-hor {
-        max-width: 420px;
-    }
-}
-
-@media (min-width: 760px) {
-    .ft-hor {
-        width: 730px;
-        height: 300px;
-        transform: translate(0px, 25%);
-        top: 100%;
-    }
-
-    .ft-hor img {
-        background-color: var(--cor1);
-        width: 41.5%;
-        height: 100%;
-        float: left;
-    }
-
-    .ft-lt {
-        width: 54.79%;
-        height: 70%;
-        float: right;
-        padding-left: 2.5%;
-        box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.15);
-        position: relative;
-        top: 50%;
-        transform: translate(0px, -50%);
-    }
-    .ver {
-        max-width: 31.33%;
-        float: left;
-        padding: 1%;
-    }
-}
-
-@media (min-width: 1024px) {
-    .ft-hor {
-        width: 830px;
-        height: 400px;
-    }
-}
-
-@media (min-width: 1440px) {
-    .ft-hor {
-        width: 930px;
-        height: 450px;
-    }
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -126,47 +56,6 @@ header #box-fixed h1 {
     position: fixed;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
     z-index: 3;
-}
-
-section {
-    background-color: white;
-}
-
-#sec-pub {
-    background-color: var(--cor4);
-}
-
-#img-mn h1 {
-    color: var(--cor3);
-    font-variant: small-caps;
-    font-size: 10vw;
-    text-shadow: 0rem .125rem .25rem rgba(0, 0, 0, .55);
-}
-
-section p {
-    line-height: 2em;
-}
-
-section.pb-50 {
-    min-height: 90vh;
-    padding: 10px;
-}
-
-section.img-fixed {
-    background-color: var(--cor2);
-    background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.495);
-}
-
-section#img-mn {
-    background-image: url('../imagens/fundo01.jpg');
-    padding-top: 52px;
-}
-
-section#img-pub {
-    background-image: url('../imagens/fundo02.jpg');
 }
 
 .conteiner {
