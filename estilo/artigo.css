@@ -45,3 +45,30 @@ main.artigo {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead, tfoot {
+    background-color: var(--cor1);
+    color: var(--cor4)
+}
+
+caption {
+    background-color: var(--cor4);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.jov {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid var(--cor4);
+    padding: 5px;
+}
